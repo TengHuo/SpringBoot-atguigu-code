@@ -1,0 +1,18 @@
+# 指定使用的profiles
+spring:
+  profiles:
+    active: prod
+
+# 使用三个横线来分割文档块
+---
+spring:
+  profiles: dev
+server:
+  port: 8888
+
+# 使用三个横线来分割文档块
+---
+spring:
+  profiles: prod
+server:
+  port: 8889
