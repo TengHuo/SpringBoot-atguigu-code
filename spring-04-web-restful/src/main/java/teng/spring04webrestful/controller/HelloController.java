@@ -1,10 +1,8 @@
 package teng.spring04webrestful.controller;
 
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.ResponseBody;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
+import teng.spring04webrestful.exception.UserNotExistException;
 
 import java.util.Arrays;
 import java.util.Map;
@@ -13,7 +11,10 @@ import java.util.Map;
 public class HelloController {
     @ResponseBody
     @RequestMapping("/hello")
-    public String sayHello() {
+    public String sayHello(@RequestParam("user") String username) {
+        if ("aaa".equals(username)) {
+            throw new UserNotExistException();
+        }
         return "<h1>HELLO world!";
     }
 
