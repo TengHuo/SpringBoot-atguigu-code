@@ -11,4 +11,6 @@ P28～P45 Web开发课程的原始HTML页面可以到[我的仓库下载](https:
 1. [spring-01-helloworld](./spring-01-helloworld/)：P5～P8
 2. [spring-02-config](./spring-02-config/)：P9～P20
 3. [spring-03-logging](./spring-03-logging/)：P21～P27
-4. [spring-04-restful](./spring-02-restful/)：P28～
+4. [spring-04-restful](./spring-02-restful/)：P28～P45
+5. 
+6. [spring-06-data-jdbc](./spring-06-data-jdbc)：P60～P62
