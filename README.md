@@ -14,4 +14,5 @@ P28～P45 Web开发课程的原始HTML页面可以到[我的仓库下载](https:
 4. [spring-04-restful](./spring-02-restful/)：P28～P45
 5. 
 6. [spring-06-data-jdbc](./spring-06-data-jdbc/)：P60～P62
-7. [spring-06-data-mybatis](./spring-06-data-mybatis/)：P63～
+7. [spring-06-data-mybatis](./spring-06-data-mybatis/)：P63～P64
+8. [spring-06-data-jpa](./spring-06-data-jpa/)：P65～P66

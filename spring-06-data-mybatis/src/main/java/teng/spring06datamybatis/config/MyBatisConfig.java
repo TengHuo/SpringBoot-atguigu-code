@@ -11,4 +11,4 @@ public class MyBatisConfig {
     public ConfigurationCustomizer configurationCustomizer() {
         return configuration -> configuration.setMapUnderscoreToCamelCase(true);
     }
-}
+} 
